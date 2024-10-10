@@ -1,8 +1,9 @@
 print('№2. Узор: d.')
-i = 0
-while i < 6:
-    i +=1
-    if i % 2 == 1:
+num_0 = 0  # счетчик
+num_str = 6  # количество количество уровней "кирпичей"
+while num_0 < num_str:
+    num_0 += 1
+    if num_0 % 2 == 1:
         print('\u001b[47m')
         print('\u001b[47m   \033[0m              ' * 20)
     else:
